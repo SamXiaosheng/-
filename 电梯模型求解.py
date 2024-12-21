@@ -6,8 +6,8 @@ elevator_H=2.58
 elevator_door_w=0.9
 elevator_door_h=2.1
 
-target_door_l=2.0#2.45
-target_door_d=1.1#1.15
+target_door_l=2.45#2.45
+target_door_d=1.15#1.15
 
 def consider_elevator_height(L,D,H,w,h,l):
     project_l=math.sqrt(((L - w) / 2 + w) ** 2 + D ** 2)
